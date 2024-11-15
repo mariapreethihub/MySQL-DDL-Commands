@@ -1,6 +1,7 @@
 **DDL Operations**
 
 **Project Description:**
+      
       This project demonstrates the use of DDL (Data Definition Language) commands in MySQL. 
       It involves creating and manipulating a database and a table named STUDENT. The script 
       showcases operations such as creating, altering, renaming, truncating, and dropping a table.
