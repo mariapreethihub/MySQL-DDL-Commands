@@ -8,7 +8,7 @@ create table Student(
 Roll_No int primary key auto_increment,
 Name varchar(100) not null,
 Marks int not null,
-Grade varchar(2) check (Grade in ('A+','A','B+','B','C+','C','D+','D'))
+Grade char(2) check (Grade in ('A+','A','B+','B','C+','C','D+','D'))
 );
 desc student;
 
