@@ -22,6 +22,7 @@
           * Drops the CLASSTEN table from the database.
           
 **Commands and explanation:**
+
           * Step 1: CREATE DATABASE School;                                                     ---Create the database
                   
                     USE School;                                                                 --- Use the newly created database
