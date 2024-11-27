@@ -5,11 +5,52 @@
       This project demonstrates the use of DDL (Data Definition Language) commands in MySQL. 
       It involves creating and manipulating a database and a table named STUDENT. The script 
       showcases operations such as creating, altering, renaming, truncating, and dropping a table.
+
       
-      This is intended for educational purposes to understand the basics of database manipulation 
-      using MySQL.
+**Primary DDL Commands:**
+
+**1.CREATE:**
+
+      Used to create new database objects such as tables, indexes, or schemas.
+      
+**Syntax:**
+
+      CREATE TABLE table_name (column1 datatype constraint,column2 datatype constraint,...);
+**2. DROP:**
+
+     Used to delete database objects such as tables, indexes, or schemas.
+
+**Syntax:**
+
+     DROP TABLE table_name;
+**3.ALTER:**
+
+      Used to modify the structure of an existing table or other database objects.
+
+**Syntax:**
+
+     ALTER TABLE table_name ADD COLUMN column_name datatype;
+     ALTER TABLE table_name MODIFY COLUMN column_name new_dataype;
+     ALTER TABLE table_name DROP COLUMN column_name;
+
+**4.TRUNCATE:**
+
+    Used to remove all rows from a table without changing table struture.
+
+**Syntax:** 
+    
+    TRUNCATE TABLE table_name;
+
+**5. RENAME:**
+
+    Used to rename an existing table.
+
+**Syntax:** 
+
+    RENAME TABLE old_table_name TO new_table_name;
 
 **Features:**
+      
       The script performs the following tasks:
 
       1.Create a Database: Creates a database named School.
